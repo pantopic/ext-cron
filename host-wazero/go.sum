@@ -1,0 +1,10 @@
+github.com/aperturerobotics/protobuf-go-lite v0.19.0 h1:7Veh1XY7pkswacItBnTR+skvPyNIFdOPg0tb3X0Yd/E=
+github.com/aperturerobotics/protobuf-go-lite v0.19.0/go.mod h1:3Ay/E7iaw2KWLirK3+dDdNJZHK0hu8Y1/kKeYeUa+8s=
+github.com/pantopic/ext-cluster/host-wazero v0.0.2 h1:WLM3ksZvBFC9TGCewAxQcbVbVPw6X4/cRlElsA6eK+4=
+github.com/pantopic/ext-cluster/host-wazero v0.0.2/go.mod h1:gpRuT9u5chSDaOJuuzDpHhGND5ROzOP0HZt1p09chi4=
+github.com/pantopic/wazero-pool v0.0.7 h1:ySBZ7vDOqrFeV9EGn70SbGN2LOO8ySePym5zgWoKOCw=
+github.com/pantopic/wazero-pool v0.0.7/go.mod h1:TbKQxNtJkDI5FDlV3yiXOOFSlxwkEZpXsIr48BbiBAc=
+github.com/tetratelabs/wazero v1.12.0 h1:DuWcpNu/FzgEXgGBDp8J1Spc+CWOvvtvVyjKlaZopYU=
+github.com/tetratelabs/wazero v1.12.0/go.mod h1:LvKtzl2RqO4gyF27BiXU+nKAjcV8f38U+kP/q2vgxh0=
+golang.org/x/sys v0.47.0 h1:o7XGOvZQCADBQQ4Y7VNq2dRWQR7JmOUW8Kxx4ZsNgWs=
+golang.org/x/sys v0.47.0/go.mod h1:4GL1E5IUh+htKOUEOaiffhrAeqysfVGipDYzABqnCmw=
