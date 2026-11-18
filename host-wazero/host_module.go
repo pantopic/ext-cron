@@ -158,6 +158,10 @@ func (h *hostModule) Register(ctx context.Context, r wazero.Runtime) (err error)
 				meta := get[*meta](ctx, ctxKeyMeta)
 				fn(get[*sync.RWMutex](ctx, ctxKeyMutex), get[map[string]*time.Ticker](ctx, ctxKeyLocal), getName(mod, meta))
 			})
+		case func(mu *sync.RWMutex, m map[string]*time.Ticker):
+			register(name, func(ctx context.Context, mod api.Module, stack []uint64) {
+				fn(get[*sync.RWMutex](ctx, ctxKeyMutex), get[map[string]*time.Ticker](ctx, ctxKeyLocal))
+			})
 		case func(mu *sync.RWMutex, m map[string]*time.Ticker, name []byte) bool:
 			register(name, func(ctx context.Context, mod api.Module, stack []uint64) {
 				meta := get[*meta](ctx, ctxKeyMeta)
