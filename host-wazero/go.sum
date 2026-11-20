@@ -1,7 +1,5 @@
-github.com/aperturerobotics/protobuf-go-lite v0.19.0 h1:7Veh1XY7pkswacItBnTR+skvPyNIFdOPg0tb3X0Yd/E=
-github.com/aperturerobotics/protobuf-go-lite v0.19.0/go.mod h1:3Ay/E7iaw2KWLirK3+dDdNJZHK0hu8Y1/kKeYeUa+8s=
-github.com/pantopic/ext-cluster/host-wazero v0.0.2 h1:WLM3ksZvBFC9TGCewAxQcbVbVPw6X4/cRlElsA6eK+4=
-github.com/pantopic/ext-cluster/host-wazero v0.0.2/go.mod h1:gpRuT9u5chSDaOJuuzDpHhGND5ROzOP0HZt1p09chi4=
+github.com/pantopic/ext-util/host-wazero v0.0.0-20261120153033-ae77d6c0be05 h1:iTzlE15Xwe4NSCvqxgWai5PXcrbRsVv4c/vOy00blfI=
+github.com/pantopic/ext-util/host-wazero v0.0.0-20261120153033-ae77d6c0be05/go.mod h1:cgSEyCBg+oNsu5t0yye5neCs/R1UIVUKP2MsZBcf9b8=
 github.com/pantopic/wazero-pool v0.0.7 h1:ySBZ7vDOqrFeV9EGn70SbGN2LOO8ySePym5zgWoKOCw=
 github.com/pantopic/wazero-pool v0.0.7/go.mod h1:TbKQxNtJkDI5FDlV3yiXOOFSlxwkEZpXsIr48BbiBAc=
 github.com/tetratelabs/wazero v1.12.0 h1:DuWcpNu/FzgEXgGBDp8J1Spc+CWOvvtvVyjKlaZopYU=
