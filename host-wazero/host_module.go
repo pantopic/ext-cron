@@ -96,7 +96,12 @@ func (h *hostModule) Register(ctx context.Context, r wazero.Runtime) (err error)
 			t := time.NewTicker(d)
 			m[k] = t
 			go func() {
-				for range t.C {
+				for {
+					select {
+					case <-t.C:
+					case <-ctx.Done():
+						return
+					}
 					meta := wazero_util.Get[*meta](ctx, ctxKeyMeta)
 					wazeropool.FromContext(ctx).Run(func(mod api.Module) {
 						setName(mod, meta, name)
